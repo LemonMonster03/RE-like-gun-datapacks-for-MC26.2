@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "核心扩展接口", "color": "aqua", "bold": true},
+  "external_title": {"text": "核心扩展接口", "color": "aqua"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "这些接口依赖正确执行者或同步 storage，不直接从菜单运行。点击后会把摘要和可编辑命令发到聊天。", "color": "gray"}, "width": 400},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "Marker 弱点"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 431"}},
+    {"label": {"text": "Hitscan API"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 432"}},
+    {"label": {"text": "投掷物 API"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 433"}},
+    {"label": {"text": "场景爆炸 API"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 434"}}
+  ],
+  "exit_action": {"label": {"text": "返回调试分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/debug"}}
+}

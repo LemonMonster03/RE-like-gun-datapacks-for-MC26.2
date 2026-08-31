@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "奖励武器", "color": "dark_red", "bold": true},
+  "external_title": {"text": "奖励武器", "color": "dark_red"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "高强度地图奖励与测试武器，不包含在正式武器全部领取中。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "columns": 1,
+  "actions": [
+    {"label": {"text": "RPG-1 无限火箭筒", "color": "gold"}, "tooltip": {"text": "单发装填，弹药无限"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 601"}}
+  ],
+  "exit_action": {"label": {"text": "返回物资分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/supplies"}}
+}

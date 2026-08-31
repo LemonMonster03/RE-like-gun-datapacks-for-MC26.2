@@ -1,0 +1,3 @@
+function #firearms_enemies:target_acquired
+function firearms_enemies:target/sample
+function firearms_enemies:combat/start_aim_reacquire

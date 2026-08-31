@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "firearms:grenade",
+    "firearms:enemy_grenade",
+    "firearms:launcher_explosion",
+    "firearms:oil_barrel_explosion",
+    "firearms:rocket_explosion"
+  ]
+}

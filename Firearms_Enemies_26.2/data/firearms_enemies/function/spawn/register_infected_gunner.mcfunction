@@ -1,0 +1,2 @@
+data modify storage firearms_enemies:api register set value {schema:1,damage_x10:25,fire_delay_ticks:8,magazine:12,reserve:36,reload_ticks:50,range_blocks:28,min_range_blocks:6,spread_mdeg:4000,pellets:1,burst_shots:3,burst_pause_ticks:30,burst_spread_growth_mdeg:900,recoil_pitch_mdeg:700,recoil_yaw_random_mdeg:500,acquire_range_blocks:32,reaction_ticks:24,reacquire_ticks:10,tracking_interval_ticks:6,target_memory_ticks:20,firing_move_multiplier_x1000:0,reload_move_multiplier_x1000:500}
+function firearms_enemies:api/register

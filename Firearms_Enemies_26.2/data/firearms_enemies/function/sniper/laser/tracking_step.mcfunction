@@ -1,0 +1,2 @@
+execute unless entity @e[type=minecraft:marker,tag=fge.aim_current,distance=..1.1,limit=1] run particle minecraft:dust{color:[0.65f,0.05f,0.04f],scale:0.35f} ~ ~ ~ 0 0 0 0 1 normal @a[distance=..96]
+execute unless entity @e[type=minecraft:marker,tag=fge.aim_current,distance=..1.1,limit=1] if block ~ ~ ~ #firearms_enemies:vision_passable if score @s fge.lasersteps < @s fge.lasermax run function firearms_enemies:sniper/laser/tracking_next

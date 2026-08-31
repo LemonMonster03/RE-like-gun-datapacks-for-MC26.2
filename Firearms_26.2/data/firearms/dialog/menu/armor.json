@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "防弹装备", "color": "blue", "bold": true},
+  "external_title": {"text": "防弹装备", "color": "blue"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "防弹保护只减免本包玩家与敌方子弹。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "整套防弹装备", "color": "yellow"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 241"}},
+    {"label": {"text": "轻型防弹头盔"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 242"}},
+    {"label": {"text": "战术防弹背心"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 243"}},
+    {"label": {"text": "防弹保护 IV 附魔书"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 244"}}
+  ],
+  "exit_action": {"label": {"text": "返回物资分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/supplies"}}
+}

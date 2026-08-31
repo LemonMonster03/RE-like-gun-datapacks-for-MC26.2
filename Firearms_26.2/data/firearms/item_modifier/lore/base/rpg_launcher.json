@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    {"text":"奖励武器 · 单发高威力火箭筒","color":"gold","italic":false},
+    {"text":"右键发射 · F 装填 60 tick","color":"dark_gray","italic":false},
+    {"text":"无需火箭弹物品 · 弹药无限","color":"light_purple","italic":false},
+    {"text":"Shift 举枪瞄准","color":"dark_gray","italic":false},
+    {"text":"","italic":false}
+  ],
+  "mode": "replace_all"
+}

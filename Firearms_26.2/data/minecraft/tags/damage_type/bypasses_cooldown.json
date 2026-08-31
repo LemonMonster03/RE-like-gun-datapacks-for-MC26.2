@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "firearms:bullet",
+    "firearms:enemy_bullet",
+    "firearms:grenade",
+    "firearms:enemy_grenade",
+    "firearms:launcher_explosion",
+    "firearms:bioweapon_grenade",
+    "firearms:oil_barrel_explosion",
+    "firearms:rocket_direct",
+    "firearms:rocket_explosion"
+  ]
+}

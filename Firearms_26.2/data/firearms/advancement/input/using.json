@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "using": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{firearms:{schema:1}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "firearms:input/using"
+  }
+}

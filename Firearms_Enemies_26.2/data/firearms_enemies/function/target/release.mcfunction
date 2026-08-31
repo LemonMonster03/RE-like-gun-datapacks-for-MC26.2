@@ -1,0 +1,2 @@
+function #firearms_enemies:target_lost
+function firearms_enemies:target/release_silent

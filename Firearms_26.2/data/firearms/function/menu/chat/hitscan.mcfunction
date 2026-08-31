@@ -1,0 +1,1 @@
+tellraw @s [{text:'[Firearms Hitscan API]\n',color:'aqua',bold:true},{text:'先在同一函数链写入 storage firearms:api hitscan，再以射手为执行者调用：\n',color:'gray'},{text:'function firearms:api/hitscan/fire',color:'white'},{text:'\n完整字段和钳制范围见 EXTENDING.md。storage 不可跨 tick 保存。',color:'dark_gray'}]

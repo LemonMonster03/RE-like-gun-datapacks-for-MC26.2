@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "正式武器", "color": "gold", "bold": true},
+  "external_title": {"text": "正式武器", "color": "gold"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "新枪只有初始已装弹，不附送背包弹药。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "全部八把", "color": "yellow"}, "tooltip": {"text": "调用 firearms:give/all"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 101"}},
+    {"label": {"text": "P9 制式手枪"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 102"}},
+    {"label": {"text": "沙漠之鹰"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 103"}},
+    {"label": {"text": "V9 冲锋枪"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 104"}},
+    {"label": {"text": "R5 自动步枪"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 105"}},
+    {"label": {"text": "M12 战术霰弹枪"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 106"}},
+    {"label": {"text": "S7 栓动狙击步枪"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 107"}},
+    {"label": {"text": "M6 马格南左轮"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 108"}},
+    {"label": {"text": "GL-3 榴弹发射器"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 109"}}
+  ],
+  "exit_action": {"label": {"text": "返回物资分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/supplies"}}
+}

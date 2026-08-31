@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {"text": "注销全部射手？", "color": "red", "bold": true},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "注销三个原版维度中全部已加载射手，清除瞄准 marker、移动修饰符和友军标签；不会删除载体实体。", "color": "red"}, "width": 400},
+  "pause": false,
+  "yes": {"label": {"text": "确认全部注销", "color": "red"}, "action": {"type": "minecraft:run_command", "command": "trigger fge.menu set 612"}},
+  "no": {"label": {"text": "取消"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms_enemies:menu/enemies"}}
+}

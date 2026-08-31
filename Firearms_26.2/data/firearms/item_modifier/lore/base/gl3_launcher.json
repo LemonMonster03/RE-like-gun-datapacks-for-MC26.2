@@ -1,0 +1,1 @@
+{"function":"minecraft:set_lore","lore":[{"text":"榴弹发射器 · 膛内 1 发 + 枪内备弹 2 发","color":"gray","italic":false},{"text":"右键发射 · F 逐发装填","color":"dark_gray","italic":false},{"text":"Shift+F 退弹并切换弹种","color":"dark_gray","italic":false},{"text":"","italic":false}],"mode":"replace_all"}

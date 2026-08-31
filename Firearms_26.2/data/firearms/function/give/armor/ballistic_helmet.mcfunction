@@ -1,0 +1,2 @@
+give @s minecraft:iron_helmet[minecraft:custom_name={text:'轻型防弹头盔',color:'aqua',bold:true,italic:false},minecraft:lore=[{text:'防弹保护 II',color:'gray',italic:false},{text:'真正头部暴击的额外伤害降低 50%',color:'dark_green',italic:false}],minecraft:enchantments={'firearms:ballistic_protection':2},minecraft:custom_data={firearms_armor:{schema:1,id:'ballistic_helmet',head_crit_bonus_multiplier_x1000:500}}] 1
+tellraw @s {text:'已获得轻型防弹头盔。',color:'green'}

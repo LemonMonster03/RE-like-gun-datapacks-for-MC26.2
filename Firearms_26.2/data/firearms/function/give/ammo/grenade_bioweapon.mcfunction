@@ -1,0 +1,1 @@
+give @s minecraft:fermented_spider_eye[minecraft:max_stack_size=16,minecraft:custom_name={text:'生物榴弹',color:'dark_green',bold:true,italic:false},minecraft:lore=[{text:'GL-3 榴弹发射器弹药',color:'gray',italic:false},{text:'必须直击生命实体 · 极高伤害',color:'dark_green',italic:false}],minecraft:custom_data={firearms_ammo:{schema:1,type:'grenade_bioweapon'}}] 2

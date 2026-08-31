@@ -1,0 +1,1 @@
+{"criteria":{"consumed":{"trigger":"minecraft:consume_item","conditions":{"item":{"predicates":{"minecraft:custom_data":"{firearms_medical:{schema:1,id:'medium_medkit'}}"}}}}},"rewards":{"function":"firearms:medical/consumed/medium_medkit"}}

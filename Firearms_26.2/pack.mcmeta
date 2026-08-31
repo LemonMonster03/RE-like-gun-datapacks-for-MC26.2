@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Firearms 26.2 - 可扩展、多人安全的枪械与投掷物框架",
+    "min_format": [107, 1],
+    "max_format": [107, 1]
+  }
+}

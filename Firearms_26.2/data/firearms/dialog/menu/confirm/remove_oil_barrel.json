@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {"text": "移除最近油桶？", "color": "yellow", "bold": true},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "无害移除 6 格内最近的爆炸油桶，不会引爆。", "color": "gray"}, "width": 340},
+  "pause": false,
+  "yes": {"label": {"text": "确认移除", "color": "red"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 314"}},
+  "no": {"label": {"text": "取消"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/deployment"}}
+}

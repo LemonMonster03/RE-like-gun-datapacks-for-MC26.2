@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firearms:menu/supplies",
+    "firearms:menu/deployment",
+    "firearms:menu/debug",
+    "firearms:menu/help"
+  ]
+}

@@ -1,0 +1,1 @@
+tellraw @s [{text:'[Firearms 投掷物 API]\n',color:'yellow',bold:true},{text:'同一函数链写入 storage firearms:runtime throwable_launch，再以投掷者执行：\n',color:'gray'},{text:'function firearms:throwable/launch',color:'white'},{text:'\n内置 type 1/2/3 已保留，新类型从 4 开始；详细 item 栈格式见 EXTENDING.md。',color:'dark_gray'}]

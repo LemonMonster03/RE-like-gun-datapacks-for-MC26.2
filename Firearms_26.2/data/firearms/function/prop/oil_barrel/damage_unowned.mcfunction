@@ -1,0 +1,3 @@
+execute if entity @e[type=minecraft:marker,tag=fg.prop_origin,distance=..2,limit=1] run damage @s 20 firearms:oil_barrel_explosion by @e[type=minecraft:item,tag=fg.prop_damage_source,limit=1]
+execute unless entity @e[type=minecraft:marker,tag=fg.prop_origin,distance=..2,limit=1] if entity @e[type=minecraft:marker,tag=fg.prop_origin,distance=..3.5,limit=1] run damage @s 12 firearms:oil_barrel_explosion by @e[type=minecraft:item,tag=fg.prop_damage_source,limit=1]
+execute unless entity @e[type=minecraft:marker,tag=fg.prop_origin,distance=..3.5,limit=1] if entity @e[type=minecraft:marker,tag=fg.prop_origin,distance=..5,limit=1] run damage @s 6 firearms:oil_barrel_explosion by @e[type=minecraft:item,tag=fg.prop_damage_source,limit=1]

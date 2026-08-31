@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {"text": "清理全部油桶？", "color": "red", "bold": true},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "无害清理三个原版维度中所有已加载爆炸油桶。", "color": "red"}, "width": 380},
+  "pause": false,
+  "yes": {"label": {"text": "确认全局清理", "color": "red"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 318"}},
+  "no": {"label": {"text": "取消"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/deployment"}}
+}

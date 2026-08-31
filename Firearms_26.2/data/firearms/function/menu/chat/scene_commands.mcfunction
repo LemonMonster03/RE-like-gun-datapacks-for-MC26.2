@@ -1,0 +1,1 @@
+tellraw @s [{text:'[Firearms 场景命令]\n',color:'gold',bold:true},{text:'坐标生成油桶：',color:'gray'},{text:'[填入聊天栏]',color:'green',underlined:true,click_event:{action:'suggest_command',command:'/execute positioned <x> <y> <z> run function firearms:prop/oil_barrel/spawn'}},{text:'\n改造台：/function firearms:workbench/spawn\n油桶放置器：/function firearms:give/prop/oil_barrel_placer',color:'white'}]

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "投掷物", "color": "dark_green", "bold": true},
+  "external_title": {"text": "投掷物", "color": "dark_green"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "手雷与闪光弹每次领取 4 个。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "columns": 1,
+  "actions": [
+    {"label": {"text": "手雷与闪光弹", "color": "yellow"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 221"}},
+    {"label": {"text": "手雷 ×4"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 222"}},
+    {"label": {"text": "闪光弹 ×4"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 223"}}
+  ],
+  "exit_action": {"label": {"text": "返回物资分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/supplies"}}
+}

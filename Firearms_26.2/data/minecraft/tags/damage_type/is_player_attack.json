@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "firearms:bullet",
+    "firearms:grenade",
+    "firearms:launcher_explosion",
+    "firearms:bioweapon_grenade",
+    "firearms:incendiary_burn",
+    "firearms:rocket_direct",
+    "firearms:rocket_explosion"
+  ]
+}

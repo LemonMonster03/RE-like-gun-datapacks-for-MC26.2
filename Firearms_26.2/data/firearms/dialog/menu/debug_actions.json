@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "状态与测试", "color": "light_purple", "bold": true},
+  "external_title": {"text": "状态与测试", "color": "light_purple"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "调试状态会输出到聊天；清除震慑会恢复三个原版维度中已加载且由本包管理的目标。", "color": "gray"}, "width": 380},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "当前枪械状态"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 401"}},
+    {"label": {"text": "测试自动武器"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 402"}},
+    {"label": {"text": "测试多弹丸武器"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 403"}},
+    {"label": {"text": "清除全部震慑", "color": "red"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 421"}},
+    {"label": {"text": "自定义维度说明", "color": "aqua"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 441"}}
+  ],
+  "exit_action": {"label": {"text": "返回调试分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/debug"}}
+}

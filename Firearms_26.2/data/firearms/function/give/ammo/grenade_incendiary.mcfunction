@@ -1,0 +1,1 @@
+give @s minecraft:magma_cream[minecraft:max_stack_size=16,minecraft:custom_name={text:'燃烧榴弹',color:'gold',bold:true,italic:false},minecraft:lore=[{text:'GL-3 榴弹发射器弹药',color:'gray',italic:false},{text:'爆炸点燃 · 留下虚拟燃油火圈',color:'dark_red',italic:false}],minecraft:custom_data={firearms_ammo:{schema:1,type:'grenade_incendiary'}}] 4

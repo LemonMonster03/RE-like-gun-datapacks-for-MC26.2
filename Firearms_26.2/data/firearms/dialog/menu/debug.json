@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {"text": "调试与管理", "color": "light_purple", "bold": true},
+  "external_title": {"text": "调试与管理", "color": "light_purple"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "状态检查、测试武器、兼容改造与扩展接口。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "dialogs": "#firearms:menu/debug",
+  "columns": 1,
+  "button_width": 310,
+  "exit_action": {"label": {"text": "返回主菜单"}, "width": 170, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/root"}}
+}

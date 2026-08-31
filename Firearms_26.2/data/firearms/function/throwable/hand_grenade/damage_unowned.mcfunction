@@ -1,0 +1,3 @@
+execute if entity @e[type=minecraft:item,tag=fg.aoe_origin,distance=..2,limit=1] run damage @s 12 firearms:grenade by @e[type=minecraft:item,tag=fg.aoe_origin,limit=1]
+execute unless entity @e[type=minecraft:item,tag=fg.aoe_origin,distance=..2,limit=1] if entity @e[type=minecraft:item,tag=fg.aoe_origin,distance=..3.5,limit=1] run damage @s 8 firearms:grenade by @e[type=minecraft:item,tag=fg.aoe_origin,limit=1]
+execute unless entity @e[type=minecraft:item,tag=fg.aoe_origin,distance=..3.5,limit=1] if entity @e[type=minecraft:item,tag=fg.aoe_origin,distance=..5,limit=1] run damage @s 4 firearms:grenade by @e[type=minecraft:item,tag=fg.aoe_origin,limit=1]

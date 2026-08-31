@@ -1,0 +1,2 @@
+data modify storage firearms_enemies:api register set value {schema:1,behavior:'telegraphed_sniper',lock_ticks:20,damage_x10:100,fire_delay_ticks:1,magazine:5,reserve:15,reload_ticks:70,range_blocks:56,min_range_blocks:10,spread_mdeg:250,pellets:1,burst_shots:1,burst_pause_ticks:60,burst_spread_growth_mdeg:0,recoil_pitch_mdeg:0,recoil_yaw_random_mdeg:0,acquire_range_blocks:64,reaction_ticks:40,reacquire_ticks:40,tracking_interval_ticks:2,target_memory_ticks:20,firing_move_multiplier_x1000:0,reload_move_multiplier_x1000:500}
+function firearms_enemies:api/register

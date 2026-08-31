@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "枪械配件", "color": "aqua", "bold": true},
+  "external_title": {"text": "枪械配件", "color": "aqua"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "实体配件应在改造台安装；不同枪械可能禁用部分槽位。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "三种配件", "color": "yellow"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 251"}},
+    {"label": {"text": "精准枪管"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 252"}},
+    {"label": {"text": "扩容弹匣"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 253"}},
+    {"label": {"text": "轻量扳机"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 254"}}
+  ],
+  "exit_action": {"label": {"text": "返回物资分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/supplies"}}
+}

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{firearms_prop_placer:{schema:1,id:'oil_barrel'}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "firearms:prop/oil_barrel/placer/consumed"
+  }
+}

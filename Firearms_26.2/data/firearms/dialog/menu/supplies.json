@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {"text": "作战物资", "color": "gold", "bold": true},
+  "external_title": {"text": "作战物资", "color": "gold"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "武器、弹药、装备与消耗品。点击领取后会返回对应分类。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "dialogs": "#firearms:menu/supplies",
+  "columns": 2,
+  "button_width": 170,
+  "exit_action": {"label": {"text": "返回主菜单"}, "width": 170, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/root"}}
+}

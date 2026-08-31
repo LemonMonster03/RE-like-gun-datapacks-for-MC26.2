@@ -1,0 +1,1 @@
+tellraw @s [{text:'[Firearms 自定义维度]\n',color:'blue',bold:true},{text:'每 tick 在目标维度调用 workbench/dimension_tick、prop/dimension_tick，并处理 launcher_projectile、incendiary_pool、throwable 和 fg.stunned。完整模板见 EXTENDING.md。\n卸载前还要在该维度恢复震慑和清理受管理实体。',color:'gray'}]

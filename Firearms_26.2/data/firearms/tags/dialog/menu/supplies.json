@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "firearms:menu/weapons",
+    "firearms:menu/ammo",
+    "firearms:menu/grenade_ammo",
+    "firearms:menu/throwables",
+    "firearms:menu/medical",
+    "firearms:menu/armor",
+    "firearms:menu/attachments",
+    "firearms:menu/rewards"
+  ]
+}

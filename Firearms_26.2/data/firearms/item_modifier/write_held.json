@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "firearms:runtime"
+  },
+  "ops": [
+    {
+      "source": "held",
+      "target": "firearms",
+      "op": "replace"
+    }
+  ]
+}

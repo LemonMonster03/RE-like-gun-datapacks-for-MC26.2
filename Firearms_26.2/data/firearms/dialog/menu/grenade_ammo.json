@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "榴弹弹药", "color": "red", "bold": true},
+  "external_title": {"text": "榴弹弹药", "color": "red"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "GL-3 用 Shift+F 退回枪内旧弹并循环选择弹种。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "三类榴弹", "color": "yellow"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 211"}},
+    {"label": {"text": "高爆榴弹 ×6"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 212"}},
+    {"label": {"text": "燃烧榴弹 ×4"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 213"}},
+    {"label": {"text": "生物榴弹 ×2"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 214"}}
+  ],
+  "exit_action": {"label": {"text": "返回物资分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/supplies"}}
+}

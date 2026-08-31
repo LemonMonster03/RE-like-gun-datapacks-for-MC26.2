@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {"text": "恢复全部震慑目标？", "color": "red", "bold": true},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "恢复三个原版维度中当前已加载且由本包冻结的实体 AI。", "color": "gray"}, "width": 380},
+  "pause": false,
+  "yes": {"label": {"text": "确认恢复", "color": "red"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 422"}},
+  "no": {"label": {"text": "取消"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/debug_actions"}}
+}

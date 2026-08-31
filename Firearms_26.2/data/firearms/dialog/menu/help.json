@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "使用说明", "color": "green", "bold": true},
+  "external_title": {"text": "使用说明", "color": "green"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "选择主题后，简明说明会发送到聊天。完整字段和扩展约定仍以 README 与 EXTENDING 为准。", "color": "gray"}, "width": 390},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "枪械与操作"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 501"}},
+    {"label": {"text": "装备与补给"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 502"}},
+    {"label": {"text": "设施与场景"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 503"}},
+    {"label": {"text": "扩展接口原则"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 504"}}
+  ],
+  "exit_action": {"label": {"text": "返回主菜单"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/root"}}
+}

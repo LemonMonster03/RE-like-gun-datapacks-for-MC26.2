@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:replaceable",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:bubble_column",
+    "minecraft:fire",
+    "minecraft:soul_fire",
+    "minecraft:nether_portal",
+    "minecraft:end_portal",
+    "minecraft:end_gateway",
+    "minecraft:light"
+  ]
+}

@@ -1,0 +1,1 @@
+give @s minecraft:netherite_scrap[minecraft:max_stack_size=64,minecraft:custom_name={text:'马格南弹',color:'red',italic:false},minecraft:lore=[{text:'M6 与马格南口径武器使用',color:'gray',italic:false}],minecraft:custom_data={firearms_ammo:{schema:1,type:'magnum'}}] 12

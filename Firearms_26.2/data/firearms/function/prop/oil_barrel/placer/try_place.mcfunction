@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #firearms:bullet_passable if block ~ ~1 ~ #firearms:bullet_passable unless entity @e[tag=fg.oil_barrel_hitbox,distance=..0.75] unless entity @e[type=!#firearms:ignored,distance=..0.75] run function firearms:prop/oil_barrel/placer/place

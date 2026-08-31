@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "常规弹药", "color": "yellow", "bold": true},
+  "external_title": {"text": "常规弹药", "color": "yellow"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "每个物品代表一发；全部弹药也会包含三类榴弹。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "全部弹药", "color": "yellow"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 201"}},
+    {"label": {"text": "手枪子弹 ×32"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 202"}},
+    {"label": {"text": "步枪子弹 ×32"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 203"}},
+    {"label": {"text": "霰弹枪子弹 ×16"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 204"}},
+    {"label": {"text": "狙击枪子弹 ×16"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 205"}},
+    {"label": {"text": "马格南弹 ×12"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 206"}}
+  ],
+  "exit_action": {"label": {"text": "返回物资分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/supplies"}}
+}

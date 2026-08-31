@@ -1,0 +1,1 @@
+give @s minecraft:firework_star[minecraft:max_stack_size=16,minecraft:custom_name={text:'高爆榴弹',color:'red',bold:true,italic:false},minecraft:lore=[{text:'GL-3 榴弹发射器弹药',color:'gray',italic:false},{text:'中等范围 · 高爆伤害',color:'dark_red',italic:false}],minecraft:custom_data={firearms_ammo:{schema:1,type:'grenade_he'}}] 6

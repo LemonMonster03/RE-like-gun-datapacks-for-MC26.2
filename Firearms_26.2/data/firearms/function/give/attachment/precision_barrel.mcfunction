@@ -1,0 +1,2 @@
+give @s minecraft:spyglass[minecraft:max_stack_size=1,minecraft:custom_name={text:'精准枪管',color:'aqua',bold:true,italic:false},minecraft:lore=[{text:'枪管配件',color:'gray',italic:false},{text:'伤害 +1.0 · 散布 -0.30° · 暴击率 +5%',color:'dark_green',italic:false},{text:'射击间隔 +1 tick · M12 不兼容',color:'dark_red',italic:false}],minecraft:custom_data={firearms_attachment:{schema:1,id:'precision_barrel',slot:'barrel'}}] 1
+tellraw @s {text:'已获得精准枪管。',color:'green'}

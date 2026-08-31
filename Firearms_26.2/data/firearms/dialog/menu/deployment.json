@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "设施与场景", "color": "red", "bold": true},
+  "external_title": {"text": "设施与场景", "color": "red"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "部署操作以当前玩家位置与朝向为基准；移除与全局清理会先要求确认。", "color": "gray"}, "width": 380},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "在前方生成改造台"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 301"}},
+    {"label": {"text": "领取油桶放置器"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 302"}},
+    {"label": {"text": "坐标部署命令", "color": "aqua"}, "tooltip": {"text": "把可编辑命令发送到聊天"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 303"}},
+    {"label": {"text": "移除最近改造台", "color": "yellow"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 311"}},
+    {"label": {"text": "移除最近油桶", "color": "yellow"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 313"}},
+    {"label": {"text": "清理全部改造台", "color": "red"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 315"}},
+    {"label": {"text": "清理全部油桶", "color": "red"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 317"}}
+  ],
+  "exit_action": {"label": {"text": "返回主菜单"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/root"}}
+}

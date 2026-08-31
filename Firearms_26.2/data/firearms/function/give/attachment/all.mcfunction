@@ -1,0 +1,3 @@
+function firearms:give/attachment/precision_barrel
+function firearms:give/attachment/extended_magazine
+function firearms:give/attachment/light_trigger

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "兼容快速改造", "color": "aqua", "bold": true},
+  "external_title": {"text": "兼容快速改造", "color": "aqua"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "旧管理员接口直接修改主手枪。正常玩法应优先使用实体改造台。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "安装精准枪管"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 411"}},
+    {"label": {"text": "恢复原厂枪管"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 412"}},
+    {"label": {"text": "安装扩容弹匣"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 413"}},
+    {"label": {"text": "恢复原厂弹匣"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 414"}},
+    {"label": {"text": "安装轻量扳机"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 415"}},
+    {"label": {"text": "恢复原厂机件"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 416"}}
+  ],
+  "exit_action": {"label": {"text": "返回调试分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/debug"}}
+}

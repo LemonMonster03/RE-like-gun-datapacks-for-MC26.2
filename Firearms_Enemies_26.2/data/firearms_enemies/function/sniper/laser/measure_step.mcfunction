@@ -1,0 +1,1 @@
+execute unless entity @e[type=minecraft:marker,tag=fge.aim_current,distance=..1.1,limit=1] if block ~ ~ ~ #firearms_enemies:vision_passable if score @s fge.lasersteps < @s fge.lasermax run function firearms_enemies:sniper/laser/measure_next

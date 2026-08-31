@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": {"text": "Firearms 战术终端", "color": "aqua", "bold": true},
+  "external_title": {"text": "Firearms 战术终端", "color": "aqua"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "创作、部署与调试入口。持有终端即可无限使用下列白名单功能。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "dialogs": "#firearms:menu/root",
+  "columns": 2,
+  "button_width": 170,
+  "exit_action": {"label": {"text": "关闭", "color": "gray"}, "width": 170}
+}

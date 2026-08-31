@@ -1,0 +1,2 @@
+give @s minecraft:tripwire_hook[minecraft:max_stack_size=1,minecraft:custom_name={text:'轻量扳机',color:'aqua',bold:true,italic:false},minecraft:lore=[{text:'机件配件',color:'gray',italic:false},{text:'射击间隔 -1 tick',color:'dark_green',italic:false},{text:'散布 +0.20° · 自动武器不兼容',color:'dark_red',italic:false}],minecraft:custom_data={firearms_attachment:{schema:1,id:'light_trigger',slot:'action'}}] 1
+tellraw @s {text:'已获得轻量扳机。',color:'green'}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firearms:bullet",
+    "firearms:enemy_bullet",
+    "firearms:bioweapon_grenade",
+    "firearms:rocket_direct"
+  ]
+}

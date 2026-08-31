@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {"text": "清理全部改造台？", "color": "red", "bold": true},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "清理三个原版维度中所有已加载改造台；存放枪械会原样弹出。", "color": "red"}, "width": 380},
+  "pause": false,
+  "yes": {"label": {"text": "确认全局清理", "color": "red"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 316"}},
+  "no": {"label": {"text": "取消"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/deployment"}}
+}

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "using": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{firearms_menu:{schema:1,id:'terminal'}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "firearms:menu/input"
+  }
+}

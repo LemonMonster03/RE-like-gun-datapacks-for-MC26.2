@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "敌对单位", "color": "dark_red", "bold": true},
+  "external_title": {"text": "敌对单位", "color": "dark_red"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "一键生成会以当前朝向在约 5 格前创建特殊敌人。请先确认前方空间安全。", "color": "gray"}, "width": 390},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "生成感染枪手"}, "action": {"type": "minecraft:run_command", "command": "trigger fge.menu set 601"}},
+    {"label": {"text": "生成感染狙击手"}, "action": {"type": "minecraft:run_command", "command": "trigger fge.menu set 602"}},
+    {"label": {"text": "生成感染投弹手"}, "action": {"type": "minecraft:run_command", "command": "trigger fge.menu set 603"}},
+    {"label": {"text": "最近射手状态", "color": "aqua"}, "action": {"type": "minecraft:run_command", "command": "trigger fge.menu set 604"}},
+    {"label": {"text": "实体注册接口说明"}, "action": {"type": "minecraft:run_command", "command": "trigger fge.menu set 621"}},
+    {"label": {"text": "注销全部射手", "color": "red"}, "action": {"type": "minecraft:run_command", "command": "trigger fge.menu set 611"}}
+  ],
+  "exit_action": {"label": {"text": "返回主菜单"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/root"}}
+}

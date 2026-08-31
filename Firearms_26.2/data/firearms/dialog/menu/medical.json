@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {"text": "医疗品", "color": "green", "bold": true},
+  "external_title": {"text": "医疗品", "color": "green"},
+  "body": {"type": "minecraft:plain_message", "contents": {"text": "整组发放 4/2/1 个药包与 2 支肾上腺素。", "color": "gray"}, "width": 360},
+  "pause": false,
+  "columns": 2,
+  "actions": [
+    {"label": {"text": "全部医疗品", "color": "yellow"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 231"}},
+    {"label": {"text": "小药包"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 232"}},
+    {"label": {"text": "中药包"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 233"}},
+    {"label": {"text": "大药包"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 234"}},
+    {"label": {"text": "肾上腺素"}, "action": {"type": "minecraft:run_command", "command": "trigger fg.menu set 235"}}
+  ],
+  "exit_action": {"label": {"text": "返回物资分类"}, "action": {"type": "minecraft:show_dialog", "dialog": "firearms:menu/supplies"}}
+}

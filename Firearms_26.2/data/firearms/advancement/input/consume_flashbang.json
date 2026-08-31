@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{firearms_throwable:{schema:1,id:'flashbang'}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "firearms:throwable/consumed/flashbang"
+  }
+}

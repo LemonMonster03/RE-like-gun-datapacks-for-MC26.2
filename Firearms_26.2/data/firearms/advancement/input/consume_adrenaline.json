@@ -1,0 +1,1 @@
+{"criteria":{"consumed":{"trigger":"minecraft:consume_item","conditions":{"item":{"predicates":{"minecraft:custom_data":"{firearms_medical:{schema:1,id:'adrenaline'}}"}}}}},"rewards":{"function":"firearms:medical/consumed/adrenaline"}}

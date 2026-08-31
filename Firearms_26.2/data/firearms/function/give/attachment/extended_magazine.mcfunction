@@ -1,0 +1,2 @@
+give @s minecraft:hopper[minecraft:max_stack_size=1,minecraft:custom_name={text:'扩容弹匣',color:'aqua',bold:true,italic:false},minecraft:lore=[{text:'弹匣配件',color:'gray',italic:false},{text:'容量按枪型 +2 / +5 / +10',color:'dark_green',italic:false},{text:'换弹时间 +8 tick',color:'dark_red',italic:false}],minecraft:custom_data={firearms_attachment:{schema:1,id:'extended_magazine',slot:'magazine'}}] 1
+tellraw @s {text:'已获得扩容弹匣。',color:'green'}
